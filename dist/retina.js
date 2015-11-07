@@ -9,7 +9,9 @@
  */
 
 (function() {
-    var root = (typeof exports === 'undefined' ? window : exports);
+    // old code not working in webpack
+    // var root = (typeof exports === 'undefined' ? window;
+    var root = window;
     var config = {
         // An option to choose a suffix for 2x images
         retinaImageSuffix : '@2x',
